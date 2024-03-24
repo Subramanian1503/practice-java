@@ -7,9 +7,9 @@ import com.upskillyourself.designpatterns.creational.factory.example_2.account.S
 
 import java.util.Locale;
 
-public class LocalBankAccountFactory implements BankAccountFactory{
+public class LocalBankAccountFactory implements BankAccountFactory {
 
-     public BankAccount getBankAccount(String bankAccountType) {
+    public BankAccount getBankAccount(String bankAccountType) {
         switch (bankAccountType.toUpperCase(Locale.ROOT)) {
             case "SAVINGS":
                 return new SavingsAccount();

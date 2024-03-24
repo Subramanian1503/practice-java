@@ -2,7 +2,7 @@ package com.upskillyourself.fundamentals;
 
 public class AddTwoNumbers {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         // Initialise a, b
         int a = 10;
         int b = 20;

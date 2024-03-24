@@ -1,6 +1,6 @@
 package com.upskillyourself.solid.interfacesegregation.before;
 
-public class BearGaurdian implements BearKeeper{
+public class BearGaurdian implements BearKeeper {
     @Override
     public void washBear() {
 

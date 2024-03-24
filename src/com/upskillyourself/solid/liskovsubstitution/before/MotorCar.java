@@ -1,6 +1,6 @@
 package com.upskillyourself.solid.liskovsubstitution.before;
 
-public class MotorCar implements Car{
+public class MotorCar implements Car {
 
     private Engine engine;
 

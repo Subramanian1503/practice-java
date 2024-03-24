@@ -1,6 +1,6 @@
 package com.upskillyourself.designpatterns.creational.factory.example_1.testingtool;
 
-public class ECUTest implements TestingTool{
+public class ECUTest implements TestingTool {
 
     @Override
     public void executeTestExecution() {

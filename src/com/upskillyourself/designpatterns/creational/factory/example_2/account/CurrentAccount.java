@@ -1,6 +1,6 @@
 package com.upskillyourself.designpatterns.creational.factory.example_2.account;
 
-public class CurrentAccount implements BankAccount{
+public class CurrentAccount implements BankAccount {
     @Override
     public void validateUserIdentity() {
 

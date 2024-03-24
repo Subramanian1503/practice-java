@@ -7,7 +7,7 @@ import com.upskillyourself.designpatterns.structural.adapter.iphone.Iphone6s;
 
 public class Application {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Iphone iphone = new Iphone6s(new Iphone4sTo6sAdapter(new Iphone4sCharger()));
         iphone.charge();
     }

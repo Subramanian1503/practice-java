@@ -1,6 +1,6 @@
 package com.upskillyourself.designpatterns.creational.factory.example_1.testingtool;
 
-public class COSYM implements TestingTool{
+public class COSYM implements TestingTool {
 
     @Override
     public void executeTestExecution() {

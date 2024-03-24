@@ -1,8 +1,5 @@
 package com.upskillyourself.designpatterns.structural.adapter.charger;
 
-import com.upskillyourself.designpatterns.structural.adapter.charger.Iphone4sCharger;
-import com.upskillyourself.designpatterns.structural.adapter.charger.IphoneCharger;
-
 public class Iphone4sTo6sAdapter implements IphoneCharger {
 
     private final Iphone4sCharger iphone4sCharger;

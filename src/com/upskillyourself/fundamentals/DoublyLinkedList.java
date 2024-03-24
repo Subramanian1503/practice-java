@@ -4,17 +4,16 @@ public class DoublyLinkedList {
 
     LinkedListNode head;
 
-    public LinkedListNode createLinkedList(String data){
+    public LinkedListNode createLinkedList(String data) {
         LinkedListNode newNode = new LinkedListNode(data);
 
-        if(head == null){
+        if (head == null) {
             this.head = newNode;
             return newNode;
-        }
-        else{
+        } else {
             LinkedListNode lastNode = head;
 
-            while(lastNode.next != null){
+            while (lastNode.next != null) {
                 lastNode = lastNode.next;
             }
 
@@ -25,28 +24,28 @@ public class DoublyLinkedList {
         }
     }
 
-    public void printLinkedList(){
-        if(head == null){
+    public void printLinkedList() {
+        if (head == null) {
             System.out.println("LinkedList is empty");
             return;
         }
 
         LinkedListNode currentNode = head;
-        while(currentNode != null){
+        while (currentNode != null) {
             System.out.println(currentNode.data);
             currentNode = currentNode.next;
         }
     }
 
-    public void deleteParticularLinkedListNode(String data){
-        if(head == null){
+    public void deleteParticularLinkedListNode(String data) {
+        if (head == null) {
             System.out.println("LinkedList is empty");
             return;
         }
 
         LinkedListNode nodeToBeDeleted = head;
-        while(nodeToBeDeleted != null ){
-            if(nodeToBeDeleted.data == data){
+        while (nodeToBeDeleted != null) {
+            if (nodeToBeDeleted.data == data) {
                 deleteNode(nodeToBeDeleted);
             }
             nodeToBeDeleted = nodeToBeDeleted.next;
@@ -58,16 +57,13 @@ public class DoublyLinkedList {
         LinkedListNode previousNode = nodeToBeDeleted.previous;
         LinkedListNode nextNode = nodeToBeDeleted.next;
 
-        if(previousNode == null && nextNode == null){
+        if (previousNode == null && nextNode == null) {
             head = null;
-        }
-        else if(previousNode == null){
+        } else if (previousNode == null) {
             head = nextNode;
-        }
-        else if(nextNode == null){
+        } else if (nextNode == null) {
             previousNode.next = null;
-        }
-        else{
+        } else {
             previousNode.next = nextNode;
             nextNode.previous = previousNode;
         }

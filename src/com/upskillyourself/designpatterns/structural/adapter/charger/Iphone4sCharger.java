@@ -1,6 +1,6 @@
 package com.upskillyourself.designpatterns.structural.adapter.charger;
 
-public class Iphone4sCharger implements IphoneCharger{
+public class Iphone4sCharger implements IphoneCharger {
 
     @Override
     public void onCharge() {

@@ -8,7 +8,7 @@ public class LinkedListNode {
 
     LinkedListNode next;
 
-    public LinkedListNode(String data){
+    public LinkedListNode(String data) {
         this.data = data;
     }
 

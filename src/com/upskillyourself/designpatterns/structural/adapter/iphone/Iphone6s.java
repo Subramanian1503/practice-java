@@ -2,7 +2,7 @@ package com.upskillyourself.designpatterns.structural.adapter.iphone;
 
 import com.upskillyourself.designpatterns.structural.adapter.charger.IphoneCharger;
 
-public class Iphone6s implements Iphone{
+public class Iphone6s implements Iphone {
 
     private IphoneCharger iphone4sTo6sAdapter;
 

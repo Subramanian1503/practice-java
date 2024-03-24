@@ -1,6 +1,6 @@
 package com.upskillyourself.solid.liskovsubstitution.before;
 
-public class ElectricCar implements Car{
+public class ElectricCar implements Car {
 
     // It does not have the engine
     @Override

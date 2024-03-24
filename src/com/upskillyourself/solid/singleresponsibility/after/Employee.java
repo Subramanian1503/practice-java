@@ -1,6 +1,6 @@
 package com.upskillyourself.solid.singleresponsibility.after;
 
-public class Employee extends Human{
+public class Employee extends Human {
 
     private Integer salary;
 

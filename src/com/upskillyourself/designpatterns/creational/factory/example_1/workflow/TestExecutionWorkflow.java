@@ -6,7 +6,7 @@ public interface TestExecutionWorkflow {
 
     TestingTool createTestingTool();
 
-    default void executeTest(){
+    default void executeTest() {
         // Initialize the workflow
         TestingTool testingTool = createTestingTool();
 

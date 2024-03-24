@@ -1,10 +1,9 @@
 package com.upskillyourself.designpatterns.structural.proxy.image;
 
-public class ProxyImage implements Image{
-
-    private RealImage realImage;
+public class ProxyImage implements Image {
 
     private final String fileName;
+    private RealImage realImage;
 
 
     public ProxyImage(String fileName) {
